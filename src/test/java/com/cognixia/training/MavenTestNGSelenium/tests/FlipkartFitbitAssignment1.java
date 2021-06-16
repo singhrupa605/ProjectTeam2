@@ -15,7 +15,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FlipkartFitbitAssignment1 {
 
-	public static void main(String args[]) throws IOException {
+	public static void main(String args[]) throws IOException 
+	{
 		
 		
 	 // 1. Opening flipkart.com
