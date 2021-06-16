@@ -27,7 +27,7 @@ public class Assignment2_Slider extends UtilityClass
 	    @Test
 	    public void testA() throws IOException
 	    {	
-	     driver.get("https://www.flipkart.com");
+	    driver.get("https://www.flipkart.com");
 		WebElement pop = driver.findElement(By.xpath("//div[@class = '_2QfC02']/button[contains(text(),x)]"));
         pop.click();
 		WebElement searchbox = driver.findElement(By.className("_3704LK"));
@@ -53,7 +53,6 @@ public class Assignment2_Slider extends UtilityClass
 		} 
 		else
 		{
-			System.out.println();
 			System.out.println("Test Failed,   there are less than 900 products\n");
 		}
 	 }
